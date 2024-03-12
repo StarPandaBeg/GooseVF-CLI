@@ -1,12 +1,12 @@
 #include "cli.h"
 
+#include <GooseVF/FileReader.h>
+#include <GooseVF/FileWriter.h>
+#include <GooseVF/Utility.h>
+
 #include <algorithm>
 #include <filesystem>
 #include <iostream>
-
-#include "FileReader.h"
-#include "FileWriter.h"
-#include "Utility.h"
 
 #ifdef _WIN32
 #include <direct.h>
